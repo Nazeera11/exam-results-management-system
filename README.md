@@ -28,11 +28,7 @@ exam-results-management-system
     └── results.html
 ```
 ## Live Demo
-
-Project is deployed and accessible online:
-```
-https://de446265-7fb5-48fa-bac8-b9bfc2cfc5e6-00-2cqyu3sglh2s7.pike.replit.dev
-```
+[Click here to view the live project](https://de446265-7fb5-48fa-bac8-b9bfc2cfc5e6-00-2cqyu3sglh2s7.pike.replit.dev)
 
 ## Run the Project
 ```
