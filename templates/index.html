@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Exam Results Management System</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Segoe UI, Arial;
+}
+
+body{
+
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+
+background:linear-gradient(270deg,#667eea,#764ba2,#6dd5ed,#2193b0);
+background-size:800% 800%;
+animation:bgMove 15s ease infinite;
+
+}
+
+@keyframes bgMove{
+
+0%{background-position:0% 50%;}
+50%{background-position:100% 50%;}
+100%{background-position:0% 50%;}
+
+}
+
+.container{
+
+text-align:center;
+color:white;
+
+}
+
+h1{
+
+font-size:38px;
+margin-bottom:30px;
+text-shadow:0 4px 10px rgba(0,0,0,0.4);
+
+}
+
+.card{
+
+width:420px;
+padding:40px;
+
+background:rgba(255,255,255,0.15);
+border-radius:20px;
+
+backdrop-filter:blur(10px);
+
+box-shadow:0 25px 45px rgba(0,0,0,0.3);
+
+display:flex;
+flex-direction:column;
+align-items:center;
+
+transition:transform 0.6s;
+
+}
+
+.card:hover{
+
+transform:rotateY(10deg) rotateX(5deg) scale(1.05);
+
+}
+
+button{
+
+width:230px;
+padding:14px;
+
+margin:12px;
+
+border:none;
+border-radius:30px;
+
+font-size:16px;
+font-weight:600;
+
+cursor:pointer;
+
+background:linear-gradient(45deg,#00c6ff,#0072ff);
+color:white;
+
+transition:0.3s;
+
+}
+
+button:hover{
+
+transform:scale(1.05);
+
+background:linear-gradient(45deg,#ff6a00,#ee0979);
+
+box-shadow:0 10px 20px rgba(0,0,0,0.3);
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Exam Results Management System</h1>
+
+<div class="card">
+
+<a href="/add">
+<button>Add Student Result</button>
+</a>
+
+<a href="/results">
+<button>View Results</button>
+</a>
+
+</div>
+
+</div>
+
+</body>
+
+</html>
