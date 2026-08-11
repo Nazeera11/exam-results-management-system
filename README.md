@@ -36,7 +36,8 @@ python app.py
 
 Open in browser:
 ```
-https://exam-results-management-system.onrender.com/results```
+https://exam-results-management-system.onrender.com/results
+```
 
 ## Author
 Nazeera 
